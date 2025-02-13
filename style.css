@@ -30,12 +30,14 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
+
 /* *********LOGO*********** */
 .logo img {
   justify-content: center;
   width: 100px;
   margin-top: 5px;
 }
+
 /* **********NAVIGATION BAR TEXT */
 .menu a {
   color: white;
@@ -44,6 +46,7 @@ header {
   font-family: "Lexend", sans-serif;
   color: lightgray;
 }
+
 .menu a:hover {
   color: rgba(255, 0, 0, 0.733);
 }
@@ -53,6 +56,7 @@ header {
   margin-right: 20px;
   color: lightgray;
 }
+
 .links a i:hover {
   color: rgba(255, 0, 0, 0.733);
 }
@@ -68,21 +72,25 @@ header {
   text-align: center;
   cursor: default;
 }
+
 .title h1 span {
   color: rgba(255, 0, 0, 0.911);
   font-size: 110px;
 }
+
 /* ************** PAGE 1 BUTTON************  */
 .btn {
   text-align: center;
   margin-top: 60px;
 }
+
 button {
   padding: 18px 22px;
   font-family: "Raleway", sans-serif;
   font-size: 17px;
   font-weight: 400;
 }
+
 /* *********BUTTON-SERVICES************** */
 #button1 {
   margin-right: 10px;
@@ -91,6 +99,7 @@ button {
   color: lightgray;
   cursor: pointer;
 }
+
 /* *********BUTTON-JOIN NOW************** */
 #button2 {
   margin-left: 10px;
@@ -99,6 +108,7 @@ button {
   border: 2px solid rgba(255, 0, 0, 0.911);
   cursor: pointer;
 }
+
 #button1:hover {
   background-color: rgba(255, 0, 0, 0.911);
   color: black;
@@ -115,6 +125,7 @@ button {
   margin: 0px 0px -4px 0px;
   padding: 0%;
 }
+
 /* ***************BIG RED BOX FOR QUOTES */
 .container2 .solganblock {
   background-color: red;
@@ -124,6 +135,7 @@ button {
   color: white;
   cursor: default;
 }
+
 /* ********QUOTES TEXT*********** */
 .solganblock h4 {
   margin: 0%;
@@ -131,6 +143,7 @@ button {
   font-size: 96px;
   font-weight: lighter;
 }
+
 .solganblock p {
   margin-top: 0%;
   text-align: center;
@@ -142,10 +155,12 @@ button {
 .aboutme {
   display: inline-flex;
 }
+
 /* ************ABOUT ME IMAGE************** */
 .aboutme img {
   width: 50%;
 }
+
 /* **********ABOUT ME TEXT************* */
 .aboutmetext {
   background-color: rgba(0, 0, 0, 0.952);
@@ -156,10 +171,12 @@ button {
   padding: 49px 49px;
   text-align: center;
 }
+
 .aboutmetext h4 {
   font-family: "Lexend", sans-serif;
   font-size: 19px;
 }
+
 .aboutmetext h4 span {
   font-family: "Lexend", sans-serif;
   text-transform: uppercase;
@@ -189,6 +206,7 @@ button {
   background-attachment: fixed;
   grid-gap: 8px;
 }
+
 /* ********HEADING PAGE 3************* */
 .headingpg3 {
   grid-column-start: 2;
@@ -198,6 +216,7 @@ button {
   text-align: center;
   text-transform: uppercase;
 }
+
 .headingpg3 h2 {
   font-size: 55px;
   font-weight: bolder;
@@ -206,6 +225,7 @@ button {
   margin: 0px 0px 0px 0px;
   color: lightgray;
 }
+
 .headingpg3 h2 span {
   font-size: 76px;
   color: rgba(255, 0, 0, 0.911);
@@ -223,36 +243,42 @@ button {
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
 .box2 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
 .box3 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
 .box4 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
 .box5 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
 .box6 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
 }
+
 /* ************ANIMATION ON BOXES */
 .hovereffect {
   width: 100%;
@@ -298,6 +324,7 @@ button {
   text-align: left;
   font-family: "Bebas Neue", cursive;
 }
+
 .hovereffect .overlay:before {
   position: absolute;
   top: 20px;
@@ -341,6 +368,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 /* ************************JOIN ON MOBILE BOX************** */
 .container4 .c4heading {
   background-color: rgb(0, 0, 0);
@@ -379,10 +407,12 @@ button {
   font-weight: normal;
   text-transform: uppercase;
 }
+
 .joinusonmobile h2 span {
   color: red;
   font-weight: 400;
 }
+
 .joinusonmobile p {
   margin: -6px 0px 32px 0px;
   padding: 0px 0px 0px 0px;
@@ -395,6 +425,7 @@ button {
 .container4 .phoneno {
   margin: 7px 0px;
 }
+
 #phnumber {
   margin: 15px 5px 15px 0px;
   padding: 9px 0px;
@@ -402,6 +433,7 @@ button {
   border: none;
   border-bottom: 1.5px solid;
 }
+
 /* ************SEND BUTTON ****************** */
 #sendbutton {
   margin: 15px 0px 15px -1px;
@@ -414,6 +446,7 @@ button {
   color: red;
   cursor: pointer;
 }
+
 #sendbutton:hover {
   color: white;
   transition: 0.4s ease;
@@ -425,6 +458,7 @@ button {
   margin: 22px 0px;
   padding: 0px 0px;
 }
+
 .container4 .storelinks h2 {
   margin: 14px 0px;
   padding: 0px 0px;
@@ -432,6 +466,7 @@ button {
   text-transform: none;
   line-height: 24px;
 }
+
 .container4 .storelinks a {
   margin: 0px 16px;
 }
@@ -454,6 +489,7 @@ button {
   display: flex;
   flex-direction: column;
 }
+
 /* ************CONTACT US HEAIDNG***************88 */
 .container5 .contactus h2 {
   font-family: "Lexend", sans-serif;
@@ -470,6 +506,7 @@ textarea {
   font-family: "Lexend", sans-serif;
   border-radius: 2px;
 }
+
 /* ******************SUBMIT BUTTON************* */
 #submitbtn {
   border: none;
@@ -480,6 +517,7 @@ textarea {
   cursor: pointer;
   border-radius: 2px;
 }
+
 #submitbtn:hover {
   background-color: rgba(255, 0, 0, 0.815);
   color: white;
@@ -495,6 +533,7 @@ footer {
   margin: 0px 0px;
   padding: 19px 0px;
 }
+
 /* ***************FOOTER LEFT PART******************* */
 footer .leftside {
   width: 50%;
@@ -502,17 +541,20 @@ footer .leftside {
   padding: 0px 90px;
   font-family: "Lexend", sans-serif;
 }
+
 footer .leftside .fa {
   background-color: black;
   padding: 8px;
   border-radius: 50%;
 }
+
 /* ****************CONTACT DETAILS****************** */
 footer .location,
 .telephone,
 .mail {
   margin-top: 18px;
 }
+
 footer .leftside a {
   color: white;
 }
@@ -524,15 +566,18 @@ footer .rightside {
   padding: 0px 90px;
   font-family: "Lexend", sans-serif;
 }
+
 footer .rightside h4 {
   margin: 9px 0px 9px 0px;
   font-size: 18px;
   font-weight: bolder;
 }
+
 footer .rightside p {
   margin: 16px 111px 13px 0px;
   color: lightgray;
 }
+
 footer .rightside a {
   margin: 0px 15px 0px 0px;
   color: white;
@@ -550,18 +595,21 @@ footer .rightside a {
   flex-direction: row;
   height: 100vh;
 }
+
 /* ******************DESIGNER LEFT PART - IMGSIDE********** */
 .designerspage .designerleft {
   width: 40%;
   margin: 0px 0px;
   padding: 0px 0px;
 }
+
 .designerspage .designerleft img {
   margin: 100px 0px 107px 201px;
   padding: 0px 0px 0px 0px;
   border-radius: 50%;
   width: 200px;
 }
+
 /* ****************RIGHTSIDE TEXT SIDE************** */
 .designerspage .designerright h3 {
   margin: 120px 252px 0px 90px;
@@ -578,14 +626,17 @@ footer .rightside a {
   font-size: 23px;
   font-weight: 400;
 }
+
 .designerspage .designerlink a {
   color: #551a8b;
   margin-right: 11px;
 }
+
 .designerright span a {
   text-decoration: none;
   color: #551a8b;
 }
+
 .designerright span a:hover {
   text-decoration: underline;
 }
@@ -596,23 +647,29 @@ footer .rightside a {
     width: 100px;
     margin-top: 5px;
   }
+
   .menu a {
     margin: 4px 11px;
   }
+
   .links a i {
     margin: 4px 11px 0px 11px;
   }
+
   .aboutme {
     display: inline-flex;
     height: 472px;
   }
+
   .aboutme img {
     width: 50%;
     height: 472px;
   }
+
   .aboutmetext h4 span {
     font-size: 27px;
   }
+
   .aboutmetext p {
     margin: 9px 0px;
   }
@@ -620,25 +677,30 @@ footer .rightside a {
   .headingpg3 h2 {
     font-size: 48px;
   }
+
   .headingpg3 h2 span {
     font-size: 66px;
   }
+
   .hovereffect .overlay:before {
     top: 11px;
     right: 55px;
     bottom: 47px;
     left: 11px;
   }
+
   .hovereffect h2 {
     font-size: 18px;
     padding: 6% 0 0px 0;
     margin: 10px 0px 0px -28px;
   }
+
   footer {
     width: 100%;
     margin: 0px 0px;
     padding: 19px 0px;
   }
+
   footer .leftside {
     width: 70%;
     padding: 0px 0px 0px 25px;
@@ -651,6 +713,7 @@ footer .rightside a {
   footer .rightside p {
     margin: 12px 0px 13px 0px;
   }
+
   .designerspage .designerleft img {
     margin: 47px 0px 81px 135px;
     width: 159px;
@@ -667,110 +730,140 @@ footer .rightside a {
   .container1 {
     background-position-x: 56%;
   }
+
   header {
     display: block;
   }
+
   .logo img {
     width: 104px;
     margin-top: 1px;
     margin-bottom: -15px;
   }
+
   .container1 .menu {
     display: flex;
     flex-direction: column;
   }
+
   .menu a {
     margin: 4px 11px;
   }
+
   .links a i {
     margin: 14px 11px 0px 11px;
   }
+
   .title h1 {
     font-size: 50px;
     margin: 49px 3px 0px 0px;
     line-height: 45px;
   }
+
   .title h1 span {
     font-size: 59px;
   }
+
   button {
     padding: 14px 14px;
   }
+
   #button2 {
     margin-left: 5px;
     padding: 14px 30px;
   }
+
   .container2 .solganblock {
     padding: 18px 0px;
   }
+
   .solganblock h4 {
     font-size: 56px;
   }
+
   .solganblock p {
     font-size: 13px;
   }
+
   .aboutme {
     display: contents;
   }
+
   .aboutme img {
     width: 100%;
     margin: 0px 0px -6px 0px;
     height: 394px;
   }
+
   .aboutmetext h4 {
     font-size: 15px;
   }
+
   .aboutmetext h4 span {
     font-size: 22px;
   }
+
   .aboutmetext p {
     font-size: 14px;
   }
+
   .container3 {
     padding: 10%;
     display: flow-root;
   }
+
   .headingpg3 h2 {
     margin-bottom: 20px;
   }
+
   .headingpg3 h2 span {
     font-size: 51px;
   }
+
   .headingpg3 h2 span {
     font-size: 51px;
   }
+
   .hovereffect .overlay:before {
     top: 19px;
     right: 0px;
     bottom: 5px;
     left: 19px;
   }
+
   .hovereffect h2 {
     font-size: 34px;
     padding: 6% 0 0px 0;
     margin: 63px 0px 0px -14px;
   }
+
   .hovereffect {
     margin-bottom: 11px;
   }
+
   .container4 .c4heading {
     padding: 0px 0px;
   }
+
   .c4heading h4 {
     margin: 35px 0px;
     font-size: 34px;
   }
+
   .container4 .joinusonmobile {
     margin: 100px 12px;
   }
+
   .joinusonmobile h2 {
     margin: 6px 43px 0px 43px;
     padding: 5px 4px;
     font-size: 33px;
   }
+
   .joinusonmobile p {
     font-size: 14px;
   }
+
   #phnumber {
     margin: 15px 5px 15px 0px;
     padding: 9px 0px;
@@ -778,51 +871,120 @@ footer .rightside a {
     border: none;
     border-bottom: 1.5px solid;
   }
+
   .container5 {
     margin: 5%;
     padding: 2px 4px 22px 4px;
     display: flow-root;
   }
+
   .container5 .contactus h2 {
     font-size: 29px;
   }
+
   footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   footer .leftside {
     width: 75%;
     padding: 0px 0px 0px 0px;
     text-align: center;
   }
+
   footer .location,
   .telephone,
   .mail {
     margin-top: 18px;
     font-size: 15px;
   }
+
   footer .rightside {
     padding: 0px 0px 0px 0px;
     text-align: center;
   }
+
   footer .rightside h4 {
     margin: 23px 0px 9px 0px;
     font-size: 18px;
   }
+
   footer .rightside a {
     margin: 0px 0px 0px 17px;
     font-size: 17px;
   }
+
   .designerspage {
     display: flow-root;
   }
+
   .designerspage .designerleft img {
     margin: 22px 107px;
   }
+
   .designerspage .designerright h3 {
     margin: 0px 68px;
     font-size: 19px;
+  }
+}
+
+/* Mobile Navigation Styles */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    z-index: 100;
+  }
+
+  .menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #000;
+    padding-top: 80px;
+    transition: 0.3s;
+    flex-direction: column;
+  }
+
+  .menu.active {
+    right: 0;
+  }
+
+  .menu a {
+    display: block;
+    padding: 15px 30px;
+    margin: 0;
+  }
+
+  /* Hamburger Animation */
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
   }
 }
